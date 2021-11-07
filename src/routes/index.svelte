@@ -1,4 +1,4 @@
 <script>
-    import title from '$lib/Header.svelte';
+    import Header from '$lib/Header.svelte';
 </script>
-<header></header>
+<Header title={"My Biography"}/>
