@@ -1,7 +1,8 @@
 <script>
-	export let color;
+	export let title;
 </script>
 
+<h1>{title}</h1>
 <div style="background:{color}">
 	<p>Color : {color}</p>
 </div>
