@@ -1,6 +1,7 @@
 <script>
     import Header from '$lib/Header.svelte';
     import Section from '$lib/Section.svelte'
+    import Footer from '$lib/Footer.svelte'
     let myInfo = {
     title: "Info",
     item1: "Tiew Rui Zhe",
@@ -24,3 +25,4 @@
 <Section {...myInfo}/>
 <Section {...myHobby}/>
 <Section {...myPersonality}/>
+<Footer github={"https://github.com/zhetiew/ruizhe-my-biography"}/>
